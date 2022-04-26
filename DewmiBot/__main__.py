@@ -104,7 +104,7 @@ BUTTONS = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Best Friend", url=f"https://t.me/Bestie_of_suryaa_parzi"),
+        InlineKeyboardButton(text="Best Friend", url=f"https://t.me/bestie_of_suryaa_parzi"),
         InlineKeyboardButton
             text="ℹ️ ᴀʙᴏᴜᴛ ℹ️", callback_data="aboutmanu_"
         ),
