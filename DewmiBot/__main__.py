@@ -61,7 +61,7 @@ from DewmiBot.modules.helper_funcs.misc import paginate_modules
 from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hay There! [👋](https://telegra.ph/file/c0afb228c4b1fcefac3bb.jpg), My Name Is  *Ξ L I N Λ 👸*. 
+Hay There! [👋](https://telegra.ph/file/1ba30d3fabf8eeed99f96.jpg), My Name Is  *🇨𝐫𝐢𝐬𝐭𝐢𝐚𝐧𝐨 🇷𝐨𝐧𝐚𝐥𝐝𝐨 𝙓 🇷𝐨𝐛𝐨𝐭*. 
 
 I can help to manage your groups with useful features, feel free to add me to your groups! 
 Promote me as *ADMIN* to let me get in action!
@@ -70,13 +70,13 @@ Promote me as *ADMIN* to let me get in action!
 Hit  /help to see *all the commands* and how they work!
 """
 
-PM_IMG = "https://telegra.ph/file/c0afb228c4b1fcefac3bb.jpg"
+PM_IMG = "https://telegra.ph/file/1ba30d3fabf8eeed99f96.jpg"
 
 
 HELP_STRINGS = f"""
-*⚊❮❮❮『 Ξ L I N Λ  HΞLP MΞИU 』❯❯❯⚊*
+*⚊❮❮❮『 🇨𝐫𝐢𝐬𝐭𝐢𝐚𝐧𝐨 🇷𝐨𝐧𝐚𝐥𝐝𝐨  HΞLP MΞИU 』❯❯❯⚊*
 
-Hay !👋 I'm  Ξ L I N Λ [👸](https://telegra.ph/file/c0afb228c4b1fcefac3bb.jpg)
+Hay !👋 I'm  🇨𝐫𝐢𝐬𝐭𝐢𝐚𝐧𝐨 🇷𝐨𝐧𝐚𝐥𝐝𝐨 [✨](https://telegra.ph/file/c0afb228c4b1fcefac3bb.jpg)
 
 The following funtions will helpful to you to manage your group. 😇
 
@@ -95,22 +95,22 @@ Support them [Youtube](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA)
 BUTTONS = [
     [
         InlineKeyboardButton(
-            text="🔱 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔱", url="http://t.me/TheElinaBot?startgroup=true"),
+            text="🔱 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔱", url="http://t.me/Zaynmalik_gc_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📰 ʙᴏᴛ ɴᴇᴡs 📰", url=f"https://t.me/ElinaNews"),
+        InlineKeyboardButton(text="God", url=f"https://t.me/Suryaakumar"),
         InlineKeyboardButton(
             text="👥 ʙᴏᴛ sᴜᴘᴘᴏʀᴛ 👥", url=f"https://t.me/ElinaSupport"
         ),
     ],
     [
-        InlineKeyboardButton(text="★ ʀᴇᴠɪᴇᴡ ᴜs ★", url=f"https://t.me/tlgrmcbot?start=theelinabot"),
-        InlineKeyboardButton(
+        InlineKeyboardButton(text="Best Friend", url=f"https://t.me/Bestie_of_suryaa_parzi,
+        InlineKeyboardButton
             text="ℹ️ ᴀʙᴏᴜᴛ ℹ️", callback_data="aboutmanu_"
         ),
     ],
     [
-        InlineKeyboardButton(text="🎛 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs 🎛", url=f"http://t.me/TheElinaBot?start=help"),
+        InlineKeyboardButton(text="🎛 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs 🎛", url=f"http://t.me/Zaynmalik_gc_bot?start=help"),
     ],
 ]
 IMPORTED = {}
@@ -392,7 +392,7 @@ def DewmiBot_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*Let's make your group bot effective now*"
-            f"\nCongragulations, @TheElinaBot🇱🇰 now ready to manage your group."
+            f"\nCongragulations, @Zaynmalik_gc_bot now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -420,18 +420,18 @@ def DewmiBot_about_callback(update, context):
         )
     elif query.data == "aboutmanu_spamprot":
         query.message.edit_text(
-            text="* @TheElinaBot🇱🇰 support chats*"
+            text="* @Zaynmalik_gc_bot support chats*"
             "\nJoin Support Group/Channel",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="👥ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ👥", url="https://t.me/epusthakalayabotsupport"),
-                    InlineKeyboardButton(text="📣ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ📣", url="https://t.me/epusthakalaya_bots"),
+                    InlineKeyboardButton(text="👥ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ👥", url="https://t.me/Friendstamilchatting"),
+                    InlineKeyboardButton(text="📣ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ📣", url="https://t.me/mafiakingsfed"),
                  ],
                  [
-                    InlineKeyboardButton(text="🖲ᴇʟɪɴᴀ sᴜᴘᴘᴏʀᴛ🖲", url="https://t.me/ElinaSupport"),
-                    InlineKeyboardButton(text="📰ᴇʟɪɴᴀ Uᴘᴅᴀᴛᴇs📰", url="https://t.me/ElinaNews"),
+                    InlineKeyboardButton(text="🖲ᴇʟɪɴᴀ sᴜᴘᴘᴏʀᴛ🖲", url="https://t.me/Friendstamilchatting"),
+                    InlineKeyboardButton(text="📰ᴇʟɪɴᴀ Uᴘᴅᴀᴛᴇs📰", url="https://t.me/mafiakingsfed"),
                  ],
                  [
                     InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_"),
@@ -442,7 +442,7 @@ def DewmiBot_about_callback(update, context):
         )
     elif query.data == "aboutmanu_tac":
         query.message.edit_text(
-            text=f"* CREDITS  FOR @TheElinaBot🇱🇰  DEV *\n"
+            text=f"* CREDITS  FOR @Zaynmalik_gc_bot  DEV *\n"
             f"\n Here you can find information about the bots I coded and the people who helped me create ELINA"
             f"\n Special credits [hirunaofficial](https://github.com/hirunaofficial/Telegram-Group-Management-Bot-DewmiBot)  & [Anikivictor](https://github.com/Damantha126/The-Anki-Vector)"
             f"\n Finally my special thanks to you for using this bot",
